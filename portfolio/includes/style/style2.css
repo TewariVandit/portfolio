@@ -1,0 +1,157 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    th tr {
+        text-align: center;
+    }
+
+    body {
+        background-color: black;
+    }
+
+    @keyframes ani {
+        100% {
+            filter: blur(30px);
+            font-size: 24vh;
+        }
+    }
+
+    .back {
+        width: 100%;
+        height: 100vh;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        background-position: fixed;
+        background-repeat: no-repeat;
+        background-size: 100%, 100%;
+    }
+
+    .back-1 {
+        position: sticky;
+        top: 0;
+        background-image: url(../style/Untitled.png);
+    }
+
+    .back-2 {
+        position: sticky;
+        top: 0;
+        background-image: url(../style/Untitled2.png);
+    }
+
+    .back-3 {
+        position: sticky;
+        top: 0;
+        background-image: url(Untitled3.png);
+    }
+
+    .content {
+        width: 100%;
+        padding: 5vh 2vw;
+    }
+
+    .fourth {
+        width: 100%;
+        height: 100vh;
+        background-color: white;
+        color: black;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        position: sticky;
+        top: 0;
+
+        >div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5vw;
+            padding: 5vh 5vw;
+        }
+    }
+
+    .rig {
+        text-align: right;
+    }
+
+    @media screen and (max-width:980px) {
+        .back {
+            height: max-content;
+        }
+
+        .back-1,
+        .back-2,
+        .back-3 {
+            height: 70vh;
+        }
+    }
+
+    @media screen and (max-width:750px) {
+
+        .ss {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+
+        .fourth {
+            position: relative;
+            height: max-content;
+
+            >div {
+                flex-direction: column;
+
+            }
+        }
+
+        .fourth {
+            flex-direction: column;
+        }
+
+        .rig {
+            text-align: center;
+            margin-top: 2vh;
+        }
+    }
+
+    @media screen and (max-width:580px) {
+        .back {
+            height: max-content;
+        }
+
+        .back-1,
+        .back-2,
+        .back-3 {
+            height: 50vh;
+        }
+
+        .ke {
+            font-size: 10vh;
+            line-height: 10vh;
+        }
+
+    }
+
+    @media screen and (max-width:440px) {
+
+        .back {
+            height: max-content;
+        }
+
+        .back-1,
+        .back-2,
+        .back-3 {
+            height: 35vh;
+        }
+    }
+
+    @media screen and (max-width:330px) {
+
+        .back-1,
+        .back-2,
+        .back-3 {
+            height: 27vh;
+        }
+
+    }

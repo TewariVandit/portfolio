@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/fd7200c94f.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./portfolio/includes/style/style1.css">
+    <link rel="stylesheet" href="./portfolio/includes/style/style2.css">
+    <link rel="stylesheet" href="./portfolio/includes/style/style3.css">
+    <link rel="stylesheet" href="./portfolio/includes/style/style4.css">
+    <link rel="stylesheet" href="./portfolio/includes/style/stylee.css">
+</head>
+
+<div class="upper">
+
+    <header class="header show-on-scroll">
+        <div class="main-photo"></div>
+        <div class="heading">
+
+            <div class="container-txt">
+                <h1 class="intro">Hi, my name is</h1>
+                <span id="vandit" class="text-txt">Vandit</span>
+                <span id="tewari" class="text-txt">Tewari</span>
+            </div>
+
+
+        </div>
+    </header>
+
+
+    <section id="about" class="dark-bg">
+
+        <div class="about-skills">
+            <h3 class="white-text">Skills</h3>
+
+            <ul class="grid-list slide-left show-on-scroll">
+                <li>
+                    <div class="about-svg-container">
+                        <i class="fa-brands fa-html5"></i>
+                    </div>
+                    <div class="svg-title-container">HTML</div>
+                </li>
+                <li>
+                    <div class="about-svg-container">
+                        <i class="fa-brands fa-css3-alt"></i>
+                    </div>
+                    <div class="svg-title-container">CSS</div>
+                </li>
+                <li>
+                    <div class="about-svg-container">
+                        <i class="fa-brands fa-square-js"></i>
+                    </div>
+                    <div class="svg-title-container">JavaScript</div>
+                </li>
+                <li>
+                    <div class="about-svg-container">
+                        <i class="fa-brands fa-python"></i>
+                    </div>
+                    <div class="svg-title-container">Python</div>
+                </li>
+                <li>
+                    <div class="about-svg-container">
+                        <i class="fa-brands fa-php"></i>
+                    </div>
+                    <div class="svg-title-container">PHP</div>
+                </li>
+                <li>
+                    <div class="about-svg-container">
+                        <i class="fa-solid fa-database"></i>
+                    </div>
+                    <div class="svg-title-container">SQL</div>
+                </li>
+                <li>
+                    <div class="about-svg-container">
+                        <i class="fa-brands fa-node"></i>
+                    </div>
+                    <div class="svg-title-container">Node</div>
+                </li>
+                <li>
+                    <div class="about-svg-container">
+                        <i class="fa-brands fa-react"></i>
+                    </div>
+                    <div class="svg-title-container">React</div>
+                </li>
+                <li>
+                    <div class="about-svg-container">
+                        <i class="fa-brands fa-angular"></i>
+                    </div>
+                    <div class="svg-title-container">Angular</div>
+                </li>
+            </ul>
+        </div>
+        <br>
+        <div class="about-programs">
+            <h3 class="white-text">Others</h3>
+
+            <ul class="grid-list slide-right show-on-scroll">
+                <li>
+                    <div class="svg-container">
+                        <i class="fa-brands fa-github"></i>
+                    </div>
+                    <div class="svg-title-container">
+                        GIT
+                    </div>
+                </li>
+                <li>
+                    <div class="svg-container">
+                        <i class="fa-brands fa-wordpress"></i>
+                    </div>
+                    <div class="svg-title-container">Wordpress</div>
+                </li>
+                <li>
+                    <div class="svg-container">
+                        <i class="fa-brands fa-shopify"></i>
+                    </div>
+                    <div class="svg-title-container">Shopify</div>
+                </li>
+
+                <li>
+                    <div class="svg-container">
+                        <i class="fa-brands fa-bootstrap"></i>
+                    </div>
+                    <div class="svg-title-container">
+                        Bootstrap
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+</div>
+
+
+<div class="prj_cont" onclick="redirectToLink()">
+    <button class="prj_btn prev" onclick="prevImage(event)">&#9650;</button>
+    <div class="circle-container" id="circleContainer">
+        <!-- Circles will be dynamically inserted here -->
+    </div>
+    <button class="prj_btn next" onclick="nextImage(event)">&#9660;</button>
+</div>
+
+
+
+
+<a href="https://adkrstory.com/" target="_blank">
+    <section class="back-1 back">
+    </section>
+</a>
+<a href="https://sienna-ibis-931314.hostingersite.com/" target="_blank">
+    <section class="back-2 back">
+    </section>
+</a>
+
+
+
+<!-- <a href="#" target="_blank">
+    <section class="back-3 back">
+    </section>
+</a> -->
+
+<section class="fourth"><br><br>
+    <p class="text-center w-100 fw-lighter fs-1 "><strong>Skills</strong></p>
+    <div class="fs-5">
+        <div class="app">
+            <div class="tag-list">
+                <div class="loop-slider" style="--duration:15951ms; --direction:normal;">
+                    <div class="inner">
+                        <div class="tag"><span>#</span> HTML</div>
+                        <div class="tag"><span>#</span> CSS</div>
+                        <div class="tag"><span>#</span> JavaScript</div>
+                        <div class="tag"><span>#</span> webdev.</div>
+                        <div class="tag"><span>#</span> UI/UX</div>
+                        <!-- duplicated content -->
+                        <div class="tag"><span>#</span> HTML</div>
+                        <div class="tag"><span>#</span> CSS</div>
+                        <div class="tag"><span>#</span> Typescript</div>
+                        <div class="tag"><span>#</span> webdev.</div>
+                        <div class="tag"><span>#</span> UI/UX</div>
+                    </div>
+                </div>
+                <div class="loop-slider" style="--duration:19260ms; --direction:reverse;">
+                    <div class="inner">
+                        <div class="tag"><span>#</span> MongoDb</div>
+                        <div class="tag"><span>#</span> React</div>
+                        <div class="tag"><span>#</span> Node</div>
+                        <div class="tag"><span>#</span> Express.js</div>
+                        <div class="tag"><span>#</span> Anuglar</div>
+                        <!-- duplicated content -->
+                        <div class="tag"><span>#</span> MongoDb</div>
+                        <div class="tag"><span>#</span> React</div>
+                        <div class="tag"><span>#</span> Node</div>
+                        <div class="tag"><span>#</span> Express.js</div>
+                        <div class="tag"><span>#</span> Anuglar</div>
+                    </div>
+                </div>
+                <div class="loop-slider" style="--duration:10449ms; --direction:normal;">
+                    <div class="inner">
+                        <div class="tag"><span>#</span> PHP</div>
+                        <div class="tag"><span>#</span> SQL</div>
+                        <div class="tag"><span>#</span> JQuery</div>
+                        <div class="tag"><span>#</span> Redux</div>
+                        <div class="tag"><span>#</span> AJAX</div>
+                        <!-- duplicated content -->
+                        <div class="tag"><span>#</span> PHP</div>
+                        <div class="tag"><span>#</span> SQL</div>
+                        <div class="tag"><span>#</span> JQuery</div>
+                        <div class="tag"><span>#</span> Redux</div>
+                        <div class="tag"><span>#</span> AJAX</div>
+                    </div>
+                </div>
+                <div class="loop-slider" style="--duration:16638ms; --direction:reverse;">
+                    <div class="inner">
+                        <div class="tag"><span>#</span> Shopify</div>
+                        <div class="tag"><span>#</span> WordPress</div>
+                        <div class="tag"><span>#</span> Bootstrap</div>
+                        <div class="tag"><span>#</span> CodePen</div>
+                        <div class="tag"><span>#</span> Tailwind</div>
+                        <!-- duplicated content -->
+                        <div class="tag"><span>#</span> Shopify</div>
+                        <div class="tag"><span>#</span> WordPress</div>
+                        <div class="tag"><span>#</span> Bootstrap</div>
+                        <div class="tag"><span>#</span> CodePen</div>
+                        <div class="tag"><span>#</span> Tailwind</div>
+                    </div>
+                </div>
+                <div class="loop-slider" style="--duration:15936ms; --direction:normal;">
+                    <div class="inner">
+                        <div class="tag"><span>#</span> GIT</div>
+                        <div class="tag"><span>#</span> VsCode</div>
+                        <div class="tag"><span>#</span> Hosting</div>
+                        <div class="tag"><span>#</span> Api</div>
+                        <div class="tag"><span>#</span> Terminal</div>
+                        <!-- duplicated content -->
+                        <div class="tag"><span>#</span> GIT</div>
+                        <div class="tag"><span>#</span> VsCode</div>
+                        <div class="tag"><span>#</span> Hosting</div>
+                        <div class="tag"><span>#</span> Api</div>
+                        <div class="tag"><span>#</span> Terminal</div>
+                    </div>
+                </div>
+                <div class="fade"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<div class="wrapper">
+    <div class="indicator">
+        <div data-section="0" class="active">Education</div>
+        <div data-section="1">Certification's</div>
+        <div data-section="2">Profile</div>
+        <div data-section="3">Experience</div>
+        <div data-section="4">About Me</div>
+    </div>
+    <div class="content-wrapper">
+        <div class="section" id="section1">
+            <div class="content">
+                <h1>Education</h1>
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th scope="col">Class</th>
+                            <th scope="col">Board</th>
+                            <th scope="col">Percentage</th>
+                            <th scope="col">Year</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Secondary Education</th>
+                            <td>CBSE</td>
+                            <td>73%</td>
+                            <td>2019</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Senior Secondary Edu.</th>
+                            <td>CBSE</td>
+                            <td>77%</td>
+                            <td>2021</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">BCA</th>
+                            <td>RU</td>
+                            <td>75%</td>
+                            <td>2024</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Diploma in Web</th>
+                            <td>TGC</td>
+                            <td>--</td>
+                            <td>2024</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">MCA (Applied)</th>
+                            <td>RTU</td>
+                            <td>--</td>
+                            <td>2026</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="section" id="section2">
+            <div class="content">
+                <h1>Certification's</h1>
+                <div class="container">
+                    <div class="row">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">HTML, CSS, JS</h5>
+                                <p class="card-text">John Hopkins University US</p>
+                                <a target="_blank"
+                                    href="https://drive.google.com/file/d/1k7UBxQfH7OfA2nMnr1mHUCWsAvsZRjiw/view">Click</a>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Fundamentals of DM</h5>
+                                <p class="card-text">Certified from google</p>
+                                <a target="_blank"
+                                    href="https://drive.google.com/file/d/1tCMlTT9poFG5gEa_74dQTc3lA58UnIEq/view">Click</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">SemRush Academy</h5>
+                                <p class="card-text">Got 4+ certificates in DM</p>
+                                <a target="_blank"
+                                    href="https://drive.google.com/drive/folders/10BRjEsAxh2FaCaCFwcz4EpVVogQ9e1tc">Click</a>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Hubspot Academy</h5>
+                                <p class="card-text">Got 4+ certificates in SEO</p>
+                                <a target="_blank"
+                                    href="https://drive.google.com/drive/folders/1TohY_IufyRwGQZmmW0LMxQ1jmXSSuIqM">Click</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="section3">
+            <div class="content">
+                <h1>Profile</h1>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-12 col-md-mb-4">
+                            <a target="_blank" href="https://github.com/TewariVandit">
+                                <img class="p_img" src="download (1).png" class="img-fluid" alt="Image 1">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 col-md-mb-4">
+                            <a target="_blank" href="https://www.linkedin.com/in/vandit-tewari-75aaab215/">
+                                <img class="p_img" src="download.png" class="img-fluid" alt="Image 2">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 col-md-mb-4">
+                            <a target="_blank" href="https://leetcode.com/u/VanditTewari/">
+                                <img class="p_img" src="images.png" class="img-fluid" alt="Image 3">
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="section4">
+            <div class="content">
+                <h1>Experience</h1>
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                Poddar International College
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Worked in poddar international college, Mansarovar for 90 days
+                                as an intern where i have handeled back office work. Worked on MS tools, councelling and
+                                many more activity related to the admission and data handeling in diffrent tools.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                SMSS NGO
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">It is an NGO working for long, and i have worked there as an
+                                designer where i have made several king of art works for them like banners, promotional
+                                , pemplates and many more in during working. There I have used tools like canva,
+                                photoshop.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                Shopify Developer
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">I have worked for an faishion based company which wish to sell
+                                there product online, I have made an e-commerce store for them to sell the product C2C
+                                with amin pannel, payment gateway and user interface included.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="section5">
+            <div class="content">
+                <h1>About Me</h1>
+                <p style="text-align: justify;">"As a recent BCA graduate with a passion for web development, I bring a
+                    fresh perspective and a strong skill set in HTML, CSS, JavaScript, PHP, and SQL. With hands-on
+                    experience in the MERN stack, I am adept at creating responsive, intuitive interfaces and
+                    implementing robust back-end solutions. My journey from academia to practical application has
+                    instilled in me a commitment to innovation and a keen eye for detail in web design and development.
+                    I thrive in collaborative environments where creativity and technical expertise converge, eager to
+                    contribute to projects that push boundaries and deliver exceptional user experiences. Let's connect
+                    and explore how my dedication to learning and problem-solving can contribute to your team's
+                    success."</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="./portfolio/scri.js"></script>
+<script src="./portfolio/script.js"></script>
+<script src="./portfolio/script1.js"></script>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+
+</html>
